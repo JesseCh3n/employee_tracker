@@ -17,7 +17,7 @@ VALUES (1, "Design Manager", 150000.00, 4),
        (9, "IT Network Engineer", 120000.00, 2),
        (10, "Warehouse Operator", 60000.00, 3),
        (11, "Machine Operator", 70000.00, 3),
-       (12, "Sales Engineer", 10000.00, 5);
+       (12, "Sales Engineer", 100000.00, 5);
 
 INSERT INTO employees (id, first_name, last_name, role_id, manager_id)
 VALUES (1, "Anna", "Blake", 1, 1),
