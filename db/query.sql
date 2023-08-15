@@ -22,7 +22,3 @@ LEFT JOIN employees m
 ON (e.manager_id = m.id)
 WHERE e.id IS NOT NULL
 ORDER BY roles.id;
-
-UPDATE employees
-SET employees.role_id = 8, manager_id = 
-WHERE employees.id = 8;
