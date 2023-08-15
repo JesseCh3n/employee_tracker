@@ -20,11 +20,11 @@ VALUES (1, "Design Manager", 150000.00, 4),
        (12, "Sales Engineer", 100000.00, 5);
 
 INSERT INTO employees (id, first_name, last_name, role_id, manager_id)
-VALUES (1, "Anna", "Blake", 1, 1),
-       (2, "Tony", "Ryan", 2, 2),
-       (3, "Tom", "James", 3, 3),
-       (4, "Nathan", "Rose", 4, 4),
-       (5, "Patrice", "Newman", 5, 5),
+VALUES (1, "Anna", "Blake", 1, NULL),
+       (2, "Tony", "Ryan", 2, NULL),
+       (3, "Tom", "James", 3, NULL),
+       (4, "Nathan", "Rose", 4, NULL),
+       (5, "Patrice", "Newman", 5, NULL),
        (6, "Con", "Stanly", 6, 1),
        (7, "Darren", "Carpenter", 7, 2),
        (8, "Maggie", "Warren", 8, 3),
